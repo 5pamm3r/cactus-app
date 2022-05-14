@@ -3,8 +3,18 @@ import './Header.css'
 function Header() {
   return (
     <header>
-      <p>Discovery</p>
-      <img src='' alt='perfil icon'/>
+      <div>
+        <div>
+          <p>Let's make the world green again</p>
+        </div>
+        <img alt='fav logo' />
+        <img alt='user logo' />
+      </div>
+
+      <div>
+        <input type='text' />
+        
+      </div>
     </header>
   )
 }

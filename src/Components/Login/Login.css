@@ -1,0 +1,63 @@
+.Login__container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.Logo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Logo__container--back {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-color: lightcyan;
+  border-radius: 50%;
+}
+
+.Logo__container--back img {
+  position: absolute;
+  bottom: -5px;
+  right: calc(50% - 83px);
+  width: 150px;
+}
+
+.Name-app {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.Motto__container {
+  font-size: 3rem;
+  font-family: cursive;
+}
+.Motto__container .Txt-green {
+  color: green;
+}
+
+.Btn__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.Btn__container button {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+.Btn__container .Btn-SignIn {
+  background-color:darkgreen;
+  font-weight: bold;
+  border-radius: 20px;
+  color: white;
+}
+.Btn__container .Btn-Create {
+  border: none;
+}
